@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Example</title>
+</head>
+<body>
+  <p id="text">First website I made and tried.</p>
+  <button id="myButton" onclick="yourFunction()">test Button</button>
+  <script>
+    document.getElementById("text").style.color = "#4333FF";
+  </script>
+  <script>
+    function yourFunction() {
+      const button = document.getElementById("myButton");
+      button.style.backgroundColor = "red";
+      button.style.color = "white";
+      button.text = "THX for chatgpt to help me learn"
+      window.open("https://chatgpt.com", "_blank");
+      button.innerText = "Chatgpt Helped so shoutout to it";
+    }
+  </script>
+</body>
+</html>
