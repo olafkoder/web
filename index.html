@@ -4,19 +4,24 @@
   <title>JavaScript Example</title>
 </head>
 <body>
-  <p id="text">First website I made and tried.</p>
+  <p id="text" onclick="bruh()">First website I made and tried.</p>
   <button id="myButton" onclick="yourFunction()">test Button</button>
   <script>
     document.getElementById("text").style.color = "#4333FF";
   </script>
   <script>
-    function yourFunction() {
+    function yourFunction() {a
       const button = document.getElementById("myButton");
       button.style.backgroundColor = "red";
       button.style.color = "white";
       button.text = "THX for chatgpt to help me learn"
       window.open("https://chatgpt.com", "_blank");
       button.innerText = "Chatgpt Helped so shoutout to it";
+    }
+    function bruh() {
+        const tex1t = document.getElementById("text");
+        tex1t.style.color = "brown"
+        tex1t.innerText = "Secret"
     }
   </script>
 </body>
